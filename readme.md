@@ -1,25 +1,28 @@
+![30 second introduction to laravel5](http://www.codeanchor.net/wp-content/uploads/2015/03/Laravel-5.png)
+
 This tutorial will get you up and running with Laravel 5 under 30 seconds. I will cover Laravel 5 installation along with adding controllers and views to your project. This tutorial was made to be simple and straight forward. **Lets get started.**
 
 
 #Installing Laravel
 Lets get the necessary Laravel 5 environment stuff out of the way : 
 
-Install Composer
+Install Composer<br>
 `curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer`
 
-Install Laravel Installer
+Install Laravel Installer.<br>
 `composer global require "laravel/installer=~1.1"`
 
-Add Composer Vendors to Global Path
+Add Composer Vendors to Global Path.<br>
 `echo "export PATH=$PATH:'~/.composer/vendor/bin'" > ~/.bash_profile`
 
 
-Create your first Laravel 5 project.
+Create your first Laravel 5 project.<Br>
 `laravel new HelloWorld`
  
-Laravel 5 will automatically download and structure the project for you. Your directory structure should look similarity to the following.
+Laravel 5 will automatically download and structure the project for you. Your directory structure should look similar to the following.
 
-![](/content/images/2015/10/Screen-Shot-2015-10-03-at-12-04-20-PM.png)
+![30 second introduction to laravel5](http://www.mbejda.com/content/images/2015/10/Screen-Shot-2015-10-03-at-12-04-20-PM.png)
+
 You can goto the Laravel5 [website](http://laravel.com/docs/master/structure) to learn more about Laravel 5 root directory structure. 
 
 #Creating A View
@@ -111,4 +114,4 @@ Lets see our new view in action. Navigate to the root of the project and execute
 
 Navigate to http://localhost:8000/hello and you should see something like this : 
 
-![](/content/images/2015/10/Screen-Shot-2015-10-03-at-12-54-19-PM.png)
+![30 second introduction to laravel5](http://www.mbejda.com/content/images/2015/10/Screen-Shot-2015-10-03-at-12-54-19-PM.png)
